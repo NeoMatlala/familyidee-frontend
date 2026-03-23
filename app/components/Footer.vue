@@ -2,7 +2,7 @@
     
     <footer class="bg-[#0C0E12] p-10 text-[#94979C]">
         <UContainer>
-            <div class="flex justify-between font-semibold w-full items-start gap-5 mb-16">
+            <div class="flex flex-col md:flex-row justify-between font-semibold w-full items-start gap-12 md:gap-5 mb-16">
                 <div class="space-y-2">
                     <p class="font-normal mb-7 text-sm">Product</p>
 
@@ -60,13 +60,13 @@
 
             <USeparator class="mb-12" color="neutral" />
 
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col md:flex-row justify-between gap-y-5 md:gap-y-0 items-start md:items-center">
                 <div class="flex flex-row justify-start gap-2 opacity-65 hover:opacity-100">
                     <img src="/images/Vector.svg" class="w-10 "/>
-                    <h1 class="text-white font-semibold text-3xl flex justify-center items-center mr-3">Family ID</h1>
+                    <h1 class="text-white font-semibold text-xl md:text-3xl flex justify-center items-center mr-3">Family ID</h1>
                 </div>
 
-                <p>
+                <p class="text-sm md:text-base">
                     © 2077 Familyid. All rights reserved.
                 </p>
             </div>

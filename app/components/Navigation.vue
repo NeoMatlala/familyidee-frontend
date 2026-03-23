@@ -1,11 +1,12 @@
 <template>
-    <UHeader class="mb-14 bg-white">
+    <UHeader class="mb-10 md:mb-14 bg-white">
         <template #title>
           <div class="flex flex-row justify-start gap-2">
             <div class="flex flex-row justify-start gap-2">
               <img src="/images/Vector.svg" class="w-10 "/>
-              <h1 class="text-black font-semibold text-4xl flex justify-center items-center mr-3">Family ID</h1>
+              <h1 class="text-black font-semibold text-2xl md:text-4xl flex justify-center items-center mr-3">Family ID</h1>
             </div>
+            
             <UNavigationMenu 
               :items="items"  
               :ui="{
@@ -19,14 +20,18 @@
                   // each item
                   childItem: 'w-full',
               }"
+              class="hidden md:inline"
             />
-            </div>
+          </div>
         </template>
 
         <template #right>
-            <UButton to="/auth/login" class="bg-white rounded-md border hover:bg-white border-[#D5D7DA] text-[#414651] text-md">Log in</UButton>
-            <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white text-md">Sign Up</UButton>
+          <div class="hidden md:inline">
+            <UButton to="/auth/login" class="bg-white rounded-md border hover:bg-white border-[#D5D7DA] text-[#414651] mr-2.5 text-md">Log in</UButton>
+            <UButton to="/auth/signup" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white text-md">Sign Up</UButton>
+          </div>
         </template>
+        
     </UHeader>
 </template>
 
