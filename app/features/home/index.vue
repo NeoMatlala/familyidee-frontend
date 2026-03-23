@@ -6,15 +6,15 @@
     <UContainer class="flex justify-between items-center h-[75vh] 2xl:h-[65vh] gap-5 mb-24">
       <!-- lhs -->
       <div class="h-full w-1/2">
-        <h1 class="mb-10 text-[#181D27] font-semibold text-6xl w-2/3">Preserve Your Family Legacy, Together</h1>
+        <h1 class="mb-10 text-[#181D27] font-semibold text-6xl w-3/4 leading-18">Preserve Your Family Legacy, Together</h1>
 
-        <p class="text-[20px] text-[#535862]"> 
+        <p class="text-[20px] leading-8 text-[#535862]"> 
           A digital home for African genealogy, memory, and culture. Trace your roots, celebrate indigenous identities, and preserve the voices of our elders—not just as history, but as living legacies. <br><span class="font-semibold italic"> Because identity is not just about me. It's about we.</span>
         </p>
 
         <div class="flex justify-start items-center gap-x-3 mt-7">
           <UInput placeholder="Enter your email" size="xl" class="w-64"/>
-          <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white text-[16px]">Create your family tree</UButton>
+          <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-2 px-5 ">Create your family tree</UButton>
         </div>
         <small>We care about your data in our <br><span class="underline">privacy policy</span>.</small>
 
@@ -192,7 +192,7 @@
       <p class="text-[#095C37] font-semibold">Our story</p>
       <h1 class="my-3 text-[#181D27] text-3xl font-semibold">We’re just getting started</h1>
 
-      <p class="text-xl font-normal text-[#535862] w-2/3">We come from names with meaning—names that held stories, pride, and belonging. For generations, our identity was passed down through totems, clan names, praise poetry, and storytelling.</p>
+      <p class="text-xl font-normal text-[#535862] w-2/3 leading-8">We come from names with meaning—names that held stories, pride, and belonging. For generations, our identity was passed down through totems, clan names, praise poetry, and storytelling.</p>
 
       <div class="flex justify-between items-start gap-5 mt-14">
         <div class="w-1/2">
@@ -218,7 +218,7 @@
     <div class="mt-16 py-16 2xl:py-32 bg-[url(/images/how-it-works-bg.png)] bg-center bg-no-repeat bg-cover text-white">
       <div class="flex flex-col justify-center items-center">
         <h1 class="my-5 text-4xl font-semibold">Our Mission</h1>
-        <p class="text-xl font-normal text-center w-2/3 2xl:w-1/2">To build a digital home where every African can trace their roots, reconnect with lineages, and preserve stories before they disappear. Knowing where you come from shouldn't be a mystery. It should be your power.</p>
+        <p class="text-xl font-normal text-center leading-8 w-2/3 2xl:w-1/2">To build a digital home where every African can trace their roots, reconnect with lineages, and preserve stories before they disappear. Knowing where you come from shouldn't be a mystery. It should be your power.</p>
       </div>
 
       <div class="mt-10 flex justify-center gap-3 items-center">
