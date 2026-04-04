@@ -46,15 +46,15 @@
                     <p>Dribble</p>
                 </div>
 
-                <div class="space-y-2">
+                <div class="space-y-2 flex flex-col">
                     <p class="font-normal mb-7 text-sm">Legal</p>
 
-                    <p>Terms</p>
-                    <p>Privacy</p>
-                    <p>Cookies</p>
-                    <p>Licenses</p>
-                    <p>Settings</p>
-                    <p>Contract</p>
+                    <NuxtLink class="hover:underline" to="/terms-and-conditions">Terms</NuxtLink>
+                    <NuxtLink>Privacy</NuxtLink>
+                    <NuxtLink>Cookies</NuxtLink>
+                    <NuxtLink>Licenses</NuxtLink>
+                    <NuxtLink>Settings</NuxtLink>
+                    <NuxtLink>Contract</NuxtLink>
                 </div>
             </div>
 
