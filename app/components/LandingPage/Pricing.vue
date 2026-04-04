@@ -5,6 +5,7 @@
             <p class="text-[18px] md:text-xl text-[#535862]">Simple, transparent pricing that grows with you. Try any plan free for 30 days.</p>
         </div>
 
+        <!-- TODO: billing toggles -->
         <!-- <div class="mt-10 flex justify-center gap-3 items-center">
             <UButton class="bg-white rounded-md border hover:bg-white border-[#D5D7DA] text-[#414651]">Chat to sales</UButton>
             <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white">Get started</UButton>
