@@ -26,7 +26,7 @@
                     <div class="flex justify-between items-center mt-7.5 w-full">
                         <UCheckbox label="Remember for 30 days" />
 
-                        <NuxtLink>Forgot password</NuxtLink>
+                        <NuxtLink to="/auth/forgot-password">Forgot password</NuxtLink>
                     </div>
 
                     <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:p-2 px-5 w-full flex justify-center items-center">Sign in</UButton>
@@ -57,7 +57,5 @@
 
 <script setup lang="ts">
 import { ArrowLeft } from 'lucide-vue-next';
-
-
 
 </script>
