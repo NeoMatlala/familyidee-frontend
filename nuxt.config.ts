@@ -10,5 +10,10 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  modules: ['@nuxt/ui']
+  modules: ['@nuxt/ui'],
+  ssr: false, // force SPA (CSR)
+
+  nitro: {
+    preset: 'static'
+  }
 })
