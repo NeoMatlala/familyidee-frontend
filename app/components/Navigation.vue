@@ -59,7 +59,7 @@
           <UButton 
             @click="openMobileMenu= false"
             to="/auth/login" 
-            class="bg-white rounded border hover:bg-white border-[#D5D7DA] text-[#414651] mr-2.5 text-md w-full justify-center flex"
+            class="bg-white rounded py-3 border border-[#D5D7DA] text-[#414651] text-md w-full justify-center flex"
           >
               Log in
           </UButton>
@@ -67,7 +67,7 @@
           <UButton 
             @click="openMobileMenu= false"
             to="/auth/signup" 
-            class="bg-[#E74B0C] rounded justify-center flex hover:bg-[#cf4209] text-white text-md w-full"
+            class="bg-[#E74B0C] rounded py-3 justify-center flex text-white text-md w-full"
           >
             Sign Up
           </UButton>

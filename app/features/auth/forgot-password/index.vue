@@ -3,7 +3,7 @@
         <div v-if="setNewPassword" class="w-full md:w-1/3 mt-10 mx-auto relative">
             <div v-if="isPasswordReset" class="px-5 md:px-10 2xl:px-28 z-50 relative">
                 <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
-                    <CircleCheck />
+                    <CircleCheck color="#414651"/>
                 </div>
 
                 <h1 class="text-3xl text-center text-[#181D27] font-semibold mb-2.5">Password reset</h1>
@@ -25,7 +25,7 @@
             
             <div v-else class="px-5 md:px-10 2xl:px-28 z-50 relative">
                 <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
-                    <KeyRound />
+                    <KeyRound color="#414651"/>
                 </div>
 
                 <h1 class="text-3xl text-center text-[#181D27] font-semibold mb-2.5">Set new password</h1>
@@ -33,12 +33,12 @@
 
                 <div class="space-y-5">
                     <div>
-                        <p class="text-xs 2xl:text-base">Password <span class="text-red-400">*</span></p>
+                        <p class="text-sm 2xl:text-base">Password <span class="text-red-400">*</span></p>
                         <UInput placeholder="Enter your password" size="xl" class="w-full mt-1.5"/>
                     </div>
 
                     <div>
-                        <p class="text-xs 2xl:text-base">Confirm Password <span class="text-red-400">*</span></p>
+                        <p class="text-sm 2xl:text-base">Confirm Password <span class="text-red-400">*</span></p>
                         <UInput placeholder="Confirm your password" size="xl" class="w-full mt-1.5"/>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
 
         <div v-else>
             <div v-if="forgotPasswordSuccess" class="w-full md:w-1/3 mt-10 mx-auto relative">
-                <div class="text-center px-16 2xl:px-28 z-50 relative">
+                <div class="text-center px-2.5 md:px-16 2xl:px-28 z-50 relative">
                     <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
-                        <Mail />
+                        <Mail color="#414651"/>
                     </div>
 
                     <h1 class="text-3xl text-[#181D27] font-semibold mb-3">Check your email</h1>
@@ -102,16 +102,16 @@
             </div>
 
             <div v-else class="w-full md:w-1/3 mt-10 mx-auto relative">
-                <div class="px-10 2xl:px-28 z-50 relative">
+                <div class="px-25 md:px-10 2xl:px-28 z-50 relative">
                     <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
-                        <KeyRound />
+                        <KeyRound color="#414651"/>
                     </div>
 
                     <h1 class="text-3xl text-center text-[#181D27] font-semibold mb-2.5">Forgot password?</h1>
                     <p class="text-[#535862] mb-10 text-center">No worries, we’ll send you reset instructions.</p>
                 
                     <div class="mb-3">
-                        <p class="text-xs 2xl:text-base">Email <span class="text-red-400">*</span></p>
+                        <p class="text-sm 2xl:text-base">Email <span class="text-red-400">*</span></p>
                         <UInput placeholder="Enter your email" size="xl" class="w-full mt-1.5"/>
                     </div>
                 
