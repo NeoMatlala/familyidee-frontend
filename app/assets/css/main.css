@@ -5,6 +5,7 @@
 
 /* assets/css/main.css */
 
+
 /* Optional: fallback font definitions */
 :root {
   --font-heading: 'Plus Jakarta Sans', sans-serif;
@@ -17,4 +18,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
+}
+
+.dark {
+  --ui-bg: white; /* Forces the main component background to white */
+  --ui-bg-elevated: white; /* Ensures cards/modals are white */
 }
