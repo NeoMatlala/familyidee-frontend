@@ -2,7 +2,7 @@
     <div class="flex justify-between items-center h-screen p-5">
         <div v-if="showCreateAccountFields" class="h-full w-full md:w-3/5 relative flex items-center justify-center">
             <div @click="showCreateAccountFields = false" class="absolute cursor-pointer top-5 left-5 flex justify-start gap-x-2">
-                <ArrowLeft /> <span>Back</span>
+                <ArrowLeft color="#535862"/> <span class="text-[#535862]">Back</span>
             </div>
 
 
@@ -72,7 +72,7 @@
 
         <div v-else class="h-full w-full md:w-3/5 relative flex items-center justify-center">
             <NuxtLink to="/" class="absolute top-5 left-5 flex justify-start gap-x-2">
-                <ArrowLeft /> <span>Back</span>
+                <ArrowLeft color="#535862"/> <span class="text-[#535862]">Back</span>
             </NuxtLink>
 
 
