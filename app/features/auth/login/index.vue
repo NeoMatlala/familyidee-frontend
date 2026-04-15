@@ -1,12 +1,12 @@
 <template>
     <div class="flex justify-between items-center h-screen p-5">
-        <div class="h-full w-3/5 relative flex items-center justify-center">
+        <div class="h-full w-full md:w-3/5 relative flex items-center justify-center">
             <NuxtLink to="/" class="absolute top-5 left-5 flex justify-start gap-x-2">
                 <ArrowLeft /> <span>Back</span>
             </NuxtLink>
 
 
-            <div class="w-2/3 px-16 2xl:px-36 flex flex-col items-center justify-center">
+            <div class="w-full md:w-2/3 px-5 md:px-16 2xl:px-36 flex flex-col items-center justify-center">
                 <img src="/images/Vector.svg" class="w-10 mb-8"/>
 
                 <h1 class="text-3xl font-semibold mb-5">Welcome back</h1>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="rounded-md h-full w-2/5">
+        <div class="rounded-md hidden md:block h-full w-2/5">
             <img src="/images/login.jpg" class="w-full  rounded-xl h-full object-cover" />
         </div>
     </div>

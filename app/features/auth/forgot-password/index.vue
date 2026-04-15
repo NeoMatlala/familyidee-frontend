@@ -1,7 +1,7 @@
 <template>
     <div class="w-full p-5">
-        <div v-if="setNewPassword" class="w-1/3 mt-10 mx-auto relative">
-            <div v-if="isPasswordReset" class="px-10 2xl:px-28 z-50 relative">
+        <div v-if="setNewPassword" class="w-full md:w-1/3 mt-10 mx-auto relative">
+            <div v-if="isPasswordReset" class="px-5 md:px-10 2xl:px-28 z-50 relative">
                 <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
                     <CircleCheck />
                 </div>
@@ -10,7 +10,7 @@
                 <p class="text-[#535862] mb-10 text-center">Your password has been successfully reset. Click below to log in magically.</p>
 
                 <NuxtLink to="/auth/login">
-                    <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:py-2.5 px-5 w-full flex justify-center items-center">
+                    <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">
                         Continue
                     </UButton>
                 </NuxtLink>
@@ -23,7 +23,7 @@
             </div>
             
             
-            <div v-else class="px-10 2xl:px-28 z-50 relative">
+            <div v-else class="px-5 md:px-10 2xl:px-28 z-50 relative">
                 <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
                     <KeyRound />
                 </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <UButton @click="isPasswordReset = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:py-2.5 px-5 w-full flex justify-center items-center">
+                <UButton @click="isPasswordReset = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">
                     Set new password
                 </UButton>
 
@@ -65,7 +65,7 @@
         </div>
 
         <div v-else>
-            <div v-if="forgotPasswordSuccess" class="w-1/3 mt-10 mx-auto relative">
+            <div v-if="forgotPasswordSuccess" class="w-full md:w-1/3 mt-10 mx-auto relative">
                 <div class="text-center px-16 2xl:px-28 z-50 relative">
                     <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
                         <Mail />
@@ -85,7 +85,7 @@
                         class="my-10"
                     />
 
-                    <UButton @click="setNewPassword = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Verify email</UButton>
+                    <UButton @click="setNewPassword = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Verify email</UButton>
                 
                     
                     <p class="my-7.5 text-sm text-[#535862]">Didn't receive the email? 
@@ -101,7 +101,7 @@
                 <div class="z-0 absolute opacity-80 -top-24 bg-[url(/images/bg-forgot-pattern.png)] bg-center bg-no-repeat bg-cover w-full h-72"></div>
             </div>
 
-            <div v-else class="w-1/3 mt-10 mx-auto relative">
+            <div v-else class="w-full md:w-1/3 mt-10 mx-auto relative">
                 <div class="px-10 2xl:px-28 z-50 relative">
                     <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
                         <KeyRound />
@@ -115,7 +115,7 @@
                         <UInput placeholder="Enter your email" size="xl" class="w-full mt-1.5"/>
                     </div>
                 
-                    <UButton @click="forgotPasswordSuccess = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Reset password</UButton>
+                    <UButton @click="forgotPasswordSuccess = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Reset password</UButton>
 
                     <NuxtLink to="/auth/login" class="mt-5 text-[#535862] text-sm items-center flex justify-center gap-x-2">
                         <ArrowLeft class="opacity-70"/> <span>Back to log in</span>

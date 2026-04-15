@@ -3,7 +3,7 @@
     <Navigation />
 
     <!-- =========== HERO SECTION =========== -->
-    <UContainer class="flex flex-col md:flex-row justify-between items-center h-auto md:h-[85vh] 2xl:h-[65vh] gap-7.5 md:gap-5 mb-24">
+    <UContainer class="flex mt-24 md:mt-36 flex-col md:flex-row justify-between items-center h-auto md:h-[85vh] 2xl:h-[65vh] gap-7.5 md:gap-5 mb-24">
       <!-- lhs -->
       <div class="h-full w-full md:w-1/2">
         <h1 class="mb-10 text-[#181D27] font-semibold text-5xl md:text-6xl w-full md:w-3/4 leading-14 md:leading-18">Preserve Your Family Legacy, Together</h1>
