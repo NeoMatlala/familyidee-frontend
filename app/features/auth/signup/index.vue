@@ -6,7 +6,7 @@
             </div>
 
 
-            <div class="w-full md:w-2/3 px-5 md:px-0 2xl:px-36 flex flex-col items-center justify-center">
+            <div class="w-full md:w-2/3 px-5 md:px-0 2xl:px-36 flex flex-col items-center justify-center mt-28 md:mt-0">
                 <img src="/images/Vector.svg" class="w-10 mb-8"/>
 
                 <h1 class="text-3xl font-semibold mb-5 text-[#181D27]">Create an account</h1>
@@ -48,7 +48,7 @@
                     <div class="flex justify-between items-center mt-7.5 w-full">
                         <UCheckbox label="Remember for 30 days" />
 
-                        <NuxtLink to="/auth/forgot-password" class="text-sm md:text-base">Forgot password</NuxtLink>
+                        <NuxtLink to="/auth/forgot-password" class="text-sm md:text-base text-[#414651]">Forgot password</NuxtLink>
                     </div>
 
                     <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Get Started</UButton>
@@ -64,7 +64,7 @@
                     </UButton>
                 </div>
 
-                <p class="mt-5 text-[#535862]">Already have an account? 
+                <p class="my-5 text-[#535862]">Already have an account? 
                     <NuxtLink to="/auth/login" class="text-[#E74B0C] hover:underline">Sign in</NuxtLink>
                 </p>
             </div>

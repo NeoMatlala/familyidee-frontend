@@ -102,7 +102,7 @@
             </div>
 
             <div v-else class="w-full md:w-1/3 mt-10 mx-auto relative">
-                <div class="px-25 md:px-10 2xl:px-28 z-50 relative">
+                <div class="px-2.5 md:px-10 2xl:px-28 z-50 relative">
                     <div class="w-10 mb-10 h-10 flex justify-center items-center bg-white rounded-md border border-[#D5D7DA] mx-auto">
                         <KeyRound color="#414651"/>
                     </div>
