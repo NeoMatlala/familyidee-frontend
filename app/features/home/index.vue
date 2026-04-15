@@ -16,7 +16,7 @@
           <UInput placeholder="Enter your email" size="xl" class="w-full md:w-64"/>
           <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:p-2 px-5 w-full md:w-52 flex justify-center items-center">Create your family tree</UButton>
         </div>
-        <small>We care about your data in our <br class="hidden md:inline"><span class="underline">privacy policy</span>.</small>
+        <small class="text-[#535862]">We care about your data in our <br class="hidden md:inline"><span class="underline">privacy policy</span>.</small>
 
         <HeroReviews class="mt-7"/>
       </div>
@@ -88,9 +88,9 @@
     <!-- =========== features SECTION =========== -->
     <div class="my-14 2xl:my-16">
       <div class="text-center mb-20 px-5 md:px-0">
-        <p>Features</p>
-        <h1 class="my-5 2xl:my-6 text-4xl font-semibold">Coding the Past into the Future</h1>
-        <p class="text-[18px] md:text-xl">We're not just honouring the past—we're preserving it as a living legacy</p>
+        <p class="text-[#095C37]">Features</p>
+        <h1 class="my-5 2xl:my-6 text-4xl font-semibold text-[#181D27]">Coding the Past into the Future</h1>
+        <p class="text-[18px] md:text-xl text-[#4A5565]">We're not just honouring the past—we're preserving it as a living legacy</p>
       </div>
 
       <div class="flex flex-col md:flex-row justify-between items-center overflow-x-hidden mb-16 gap-y-10 md:gap-y-0">
@@ -99,9 +99,9 @@
             <MessageCircle color="#EF6820" />
           </div>
 
-          <h1 class="text-3xl md:text-4xl font-semibold mb-5 md:mb-7.5">The Lost Wisdom</h1>
+          <h1 class="text-3xl md:text-4xl font-semibold mb-5 md:mb-7.5 text-[#20170B]">The Lost Wisdom</h1>
 
-          <div class="space-y-3">
+          <div class="space-y-3 text-[#364153]">
             <div class="flex justify-start items-start md:items-center gap-2.5">
               <CircleX color="#D92D20" />
               <p class="text-lg">Identity shifts and confusion through generations</p>
@@ -144,10 +144,10 @@
             <Zap color="#EF6820" />
           </div>
 
-          <h1 class="text-3xl md:text-4xl font-semibold mb-3">Legacy Reclaimed</h1>
-          <p class="w-full mb-7.5 2xl:w-2/3">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
+          <h1 class="text-3xl md:text-4xl font-semibold mb-3 text-[#181D27]">Legacy Reclaimed</h1>
+          <p class="w-full mb-7.5 text-[#535862] 2xl:w-2/3">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
 
-          <div class="space-y-3">
+          <div class="space-y-3 text-[#364153]">
             <div class="flex justify-start items-start md:items-center gap-2.5">
               <CircleCheckIcon color="#D92D20" />
               <p class="text-lg">Digital preservation of African genealogy and memory</p>
@@ -180,9 +180,9 @@
     <!-- =========== features2 SECTION =========== -->
     <UContainer class="my-14 2xl:my-16">
       <div class="text-center mb-20">
-        <p>Features</p>
-        <h1 class="my-3 2xl:my-6 text-4xl font-semibold">This is Family IDee</h1>
-        <p class="text-[18px] md:text-xl">Where African heritage meets the digital future</p>
+        <p class="text-[#095C37]">Features</p>
+        <h1 class="my-3 2xl:my-6 text-4xl text-[#181D27] font-semibold">This is Family IDee</h1>
+        <p class="text-[18px] md:text-xl text-[#535862]">Where African heritage meets the digital future</p>
       </div>
 
       <div class="w-full md:h-[80vh] 2xl:h-[70vh] mt-14 mb-5">
@@ -233,11 +233,11 @@
 
     <div class="flex mt-5 md:mt-0 flex-col md:flex-row gap-5 md:gap-0 justify-center items-center">
       <div class="text-left w-full md:w-1/2 px-5 md:px-12">
-        <p class="text-lg 2xl:text-xl 2xl:pr-36 leading-8">
+        <p class="text-lg text-[#181D27] 2xl:text-xl 2xl:pr-36 leading-8">
           "By age 23, I had carried four surnames—each one adding confusion, not clarity. Like many Africans, I was caught in a cycle of identity shifts, silences, and unanswered questions. So I built Family IDee: a digital home for Africans to trace their roots, reconnect lineages, and preserve stories before they disappear. Because knowing where you come from shouldn't be a mystery. It should be your power."
         </p>
-        <p class="mt-5 2xl:pt-8 text-lg 2xl:text-xl font-semibold">Thakgalang Nkatu Mogashane</p>
-        <p class="font-light">Founder, Family IDee</p>
+        <p class="mt-5 2xl:pt-8 text-[#181D27] text-lg 2xl:text-xl font-semibold">Thakgalang Nkatu Mogashane</p>
+        <p class="font-light text-[#535862]">Founder, Family IDee</p>
       </div>
 
       <div class="w-full md:w-1/2 md:h-screen 2xl:h-[90vh] relative">

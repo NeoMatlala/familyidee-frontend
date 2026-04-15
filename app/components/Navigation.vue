@@ -3,10 +3,10 @@
     <UContainer class="mb-5 bg-white flex justify-between items-center ">
         
       <div class="flex flex-row justify-start gap-2">
-        <div v-if="!openMobileMenu" class="flex flex-row justify-start gap-2">
+        <NuxtLink to="/" v-if="!openMobileMenu" class="flex flex-row justify-start gap-2">
           <img src="/images/Vector.svg" class="w-10 "/>
           <h1 class="text-black font-semibold text-2xl md:text-4xl flex justify-center items-center mr-3">Family ID</h1>
-        </div>
+        </NuxtLink>
 
         <UNavigationMenu 
           :items="items"  
@@ -30,7 +30,7 @@
         <UButton to="/auth/signup" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white text-md">Sign Up</UButton>
       </div>
         
-      <Menu v-if="!openMobileMenu" class="md:hidden" @click="openMobileMenu= true"/>
+      <Menu color="#414651" v-if="!openMobileMenu" class="md:hidden" @click="openMobileMenu= true"/>
     </UContainer>
 
     <div v-if="openMobileMenu" class="bg-white h-screen w-full md:hidden z-50">
