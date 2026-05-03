@@ -29,11 +29,8 @@
                         <NuxtLink to="/auth/forgot-password" class="text-sm md:text-base">Forgot password</NuxtLink>
                     </div>
 
-                    <NuxtLink to="/dashboard">
-                        <UButton 
-                            class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-2 px-5 w-full flex justify-center items-center mt-2.5">
-                            Sign in
-                        </UButton>
+                    <NuxtLink to="/dashboard" class="bg-[#E74B0C] w-full rounded-md hover:bg-[#cf4209] text-white p-3 md:p-2 px-5 flex justify-center items-center mt-2.5">
+                         Sign in
                     </NuxtLink>
                 </div>
                 

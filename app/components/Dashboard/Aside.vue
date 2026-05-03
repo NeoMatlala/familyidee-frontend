@@ -8,10 +8,10 @@
 
             <UInput class="mt-7.5 mb-10" icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." />
 
-            <div class="space-y-1 text-[#414651] ">
-                <NuxtLink class="flex p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
+            <div class="space-y-1 text-[#252B37]">
+                <NuxtLink to="/dashboard/" class="flex p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <House :size="18"/>
-                    <p>Home</p>
+                    <p >Home</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
@@ -46,7 +46,7 @@
                     <p>Support</p>
                 </NuxtLink>
 
-                <NuxtLink class="flex p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
+                <NuxtLink to="/settings" class="flex p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <Settings :size="18"/>
                     <p>Settings</p>
                 </NuxtLink>
