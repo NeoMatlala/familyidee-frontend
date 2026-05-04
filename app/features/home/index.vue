@@ -14,7 +14,11 @@
 
         <div class="flex flex-col md:flex-row justify-start items-center gap-3 mt-7 mb-2.5 md:mb-0">
           <UInput placeholder="Enter your email" size="xl" class="w-full md:w-64"/>
-          <UButton class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:p-2 px-5 w-full md:w-52 flex justify-center items-center">Create your family tree</UButton>
+          <NuxtLink 
+            to="/auth/login" 
+            class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:p-2 px-5 w-full md:w-52 flex justify-center items-center">
+              Create your family tree
+            </NuxtLink>
         </div>
         <small class="text-[#535862]">We care about your data in our <br class="hidden md:inline"><span class="underline">privacy policy</span>.</small>
 
