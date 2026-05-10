@@ -76,17 +76,21 @@
                         A one-time password (OTP) has been sent to your email. Please enter it below to continue resetting your password.
                     </p>
 
+                    <div class="w-fit ">
                     <UPinInput 
                         v-model="otpValue"
                         type="number"
                         :length="4"
                         otp 
-                        size="xl"
+                        :ui="{
+                            base: 'w-[80px] h-[80px] text-xl text-center',
+                        }"
                         class="my-10"
                     />
 
                     <UButton @click="setNewPassword = true" class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-3 md:p-5 md:py-2.5 px-5 w-full flex justify-center items-center">Verify email</UButton>
-                
+                    </div>
+    
                     
                     <p class="my-7.5 text-sm text-[#535862]">Didn't receive the email? 
                         <NuxtLink class="text-[#E74B0C] hover:underline">Click to resend</NuxtLink>

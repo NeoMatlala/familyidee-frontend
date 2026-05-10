@@ -13,7 +13,7 @@
         </p>
 
         <div class="flex flex-col md:flex-row justify-start items-center gap-3 mt-7 mb-2.5 md:mb-0">
-          <UInput placeholder="Enter your email" size="xl" class="w-full md:w-64"/>
+          <UInput placeholder="Enter your email" size="xl" class="w-full md:w-64 shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]"/>
           <NuxtLink 
             to="/auth/login" 
             class="bg-[#E74B0C] rounded-md hover:bg-[#cf4209] text-white p-5 md:p-2 px-5 w-full md:w-52 flex justify-center items-center">
@@ -98,7 +98,7 @@
       </div>
 
       <div class="flex flex-col md:flex-row justify-between items-center overflow-x-hidden mb-16 gap-y-10 md:gap-y-0">
-        <div class="md:pl-24 2xl:pl-36 px-5 md:px-0">
+        <div class="md:pl-16 2xl:pl-96  2xl:mr-10 px-5 md:px-0">
           <div class="w-12 mb-10 md:mb-5 h-12 flex justify-center items-center rounded-full bg-[#FDEAD7]">
             <MessageCircle color="#EF6820" />
           </div>

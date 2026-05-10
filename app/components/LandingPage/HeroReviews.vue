@@ -9,14 +9,14 @@
         </UAvatarGroup>
 
         <div class="text-[#414651] font-semibold">
-            <div class="flex justify-start gap-2 items-center">
+            <div class="flex justify-start gap-1 items-center">
                <Star
                 v-for="i in 5"
                 :key="i"
                 class="size-3 text-yellow-400"
                 fill="currentColor"
                 />
-                <p>5.0</p>
+                <p class="ml-1.5">5.0</p>
             </div>
             <p>from 200+ reviews</p>
         </div>

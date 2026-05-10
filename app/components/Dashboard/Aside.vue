@@ -1,53 +1,53 @@
 <template>
     <div class="h-full flex flex-col relative">
-        <div class="flex-1 overflow-y-auto p-5 pb-24">
+        <div class="thin-scroll flex-1 overflow-y-auto p-5 pb-24">
             <NuxtLink to="/" class="flex flex-row justify-start gap-2">
             <img src="/images/Vector.svg" class="w-10 "/>
             <h1 class="text-black font-semibold text-2xl md:text-3xl flex justify-center items-center mr-3">Family ID</h1>
             </NuxtLink>
 
-            <UInput class="mt-7.5 mb-5" icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." />
+            <UInput class="mt-7.5 mb-5 shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]" icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." />
 
-            <div class="space-y-0 text-[#252B37]">
+            <div class="space-y-0 text-[#414651]">
                 <NuxtLink to="/dashboard/" class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <House :size="18"/>
+                    <House :size="18" class="text-[#A4A7AE]"/>
                     <p >Home</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <ChartColumn :size="18"/>
+                    <ChartColumn :size="18" class="text-[#A4A7AE]"/>
                     <p>Dashboard</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <Server :size="18"/>
+                    <Server :size="18" class="text-[#A4A7AE]"/>
                     <p>Projects</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <FileCheck :size="18"/>
+                    <FileCheck :size="18" class="text-[#A4A7AE]"/>
                     <p>Tasks</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <PieChart :size="18"/>
+                    <PieChart :size="18" class="text-[#A4A7AE]"/>
                     <p>Reporting</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <Users2 :size="18"/>
+                    <Users2 :size="18" class="text-[#A4A7AE]"/>
                     <p>Users</p>
                 </NuxtLink>
             </div>
 
             <div class="space-y-0 text-[#414651] mt-16 mb-5">
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <Volleyball :size="18"/>
+                    <Volleyball :size="18" class="text-[#A4A7AE]"/>
                     <p>Support</p>
                 </NuxtLink>
 
                 <NuxtLink to="/settings" class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
-                    <Settings :size="18"/>
+                    <Settings :size="18" class="text-[#A4A7AE]"/>
                     <p>Settings</p>
                 </NuxtLink>
             </div>

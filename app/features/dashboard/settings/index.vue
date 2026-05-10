@@ -1,5 +1,39 @@
 <template>
-    <div class="h-full w-full">
+    <div v-if="accountDeleted" class="h-full w-full">
+        <div class="flex justify-between items-start">
+            <div class="w-2/3">
+                <h1 class="font-semibold text-[#181D27] text-2xl">Account Deletion Scheduled</h1>
+                <p class="text-[#535862] mt-1">
+                    Your account is scheduled for deletion. You can cancel within the grace period.
+                </p>
+            </div>
+
+            <div class="w-1/3">
+                <UInput icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." class="w-full"/>
+            </div>
+        </div>
+
+        <div class="bg-[#FEF0C7] rounded-md py-10 mb-7 mt-16 flex flex-col gap-2 items-center">
+            <p class="text-[#DC6803] mt-2.5">Time remaining to cancel</p>
+            <h1 class="font-semibold text-[#181D27] text-3xl">29 days, 23 hours</h1>
+        </div>
+
+        <p class="text-center text-[#535862] mb-2">After this period, all your data will be permanently anonymised.</p>
+        <p class="text-center text-[#535862]">A confirmation email has been sent to your registered email address.</p>
+
+        <div class="mt-10 flex justify-center md:justify-start gap-3 items-center">
+            <UButton class="bg-[#E74B0C] w-full md:w-48 flex justify-center p-2 rounded-md hover:bg-[#cf4209] text-white">
+                    Cancel Deletion
+                </UButton>
+
+                <UButton to="/" class="bg-white flex justify-center p-2 w-full md:w-48 rounded-md border hover:bg-white border-[#D5D7DA] text-[#414651]">
+                    Return Home
+                </UButton>
+                
+            </div>
+    </div>
+
+    <div v-else class="h-full w-full">
         <div class="flex justify-between items-start">
             <div class="w-2/3">
                 <h1 class="font-semibold text-[#181D27] text-2xl">Account Settings</h1>
@@ -210,8 +244,11 @@ definePageMeta({
 const open = ref<boolean>(false)
 const verifyAccountStep1 = ref<boolean>(false)
 const verifyAccountStep2 = ref<boolean>(false)
+const accountDeleted = ref<boolean>(false)
 
 function finalDeletionConfirmation(): void {
+    accountDeleted.value = true
+
     open.value = false
     verifyAccountStep2.value = false
     verifyAccountStep1.value = false
