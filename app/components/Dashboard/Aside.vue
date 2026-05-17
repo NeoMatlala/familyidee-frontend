@@ -1,14 +1,14 @@
 <template>
-    <div class="h-full flex flex-col relative">
+    <div class="h-full flex flex-col items-between relative bg-[#FEF6EE]">
         <div class="thin-scroll flex-1 overflow-y-auto p-5 pb-24">
-            <NuxtLink to="/" class="flex flex-row justify-start gap-2">
-            <img src="/images/Vector.svg" class="w-10 "/>
-            <h1 class="text-black font-semibold text-2xl md:text-3xl flex justify-center items-center mr-3">Family ID</h1>
+            
+            <NuxtLink to="/" class="flex flex-row justify-start gap-2 w-full h-[8vh] 2xl:h-[7vh]">
+                <img src="/images/fam-id-logo.png" class="w-3/4 h-full "/>
             </NuxtLink>
 
             <UInput class="mt-7.5 mb-5 shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]" icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." />
 
-            <div class="space-y-0 text-[#414651]">
+            <div class="space-y-1 text-[#414651]">
                 <NuxtLink to="/dashboard/" class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <House :size="18" class="text-[#A4A7AE]"/>
                     <p >Home</p>
@@ -16,31 +16,33 @@
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <ChartColumn :size="18" class="text-[#A4A7AE]"/>
-                    <p>Dashboard</p>
+                    <p>Family</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <Server :size="18" class="text-[#A4A7AE]"/>
-                    <p>Projects</p>
+                    <p>Gallery</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <FileCheck :size="18" class="text-[#A4A7AE]"/>
-                    <p>Tasks</p>
+                    <p>Invitations</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <PieChart :size="18" class="text-[#A4A7AE]"/>
-                    <p>Reporting</p>
+                    <p>Messages</p>
                 </NuxtLink>
 
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <Users2 :size="18" class="text-[#A4A7AE]"/>
-                    <p>Users</p>
+                    <p>Consultations</p>
                 </NuxtLink>
             </div>
+        </div>
 
-            <div class="space-y-0 text-[#414651] mt-16 mb-5">
+        <div class="py-5 px-2 flex flex-col">
+            <div class="space-y-0 text-[#414651] mb-5">
                 <NuxtLink class="flex font-semibold p-2 rounded-md hover:bg-slate-100 cursor-pointer w-full justify-start items-center gap-2">
                     <Volleyball :size="18" class="text-[#A4A7AE]"/>
                     <p>Support</p>
@@ -52,22 +54,7 @@
                 </NuxtLink>
             </div>
 
-            <div class="border rounded-md border-[#E9EAEB] p-2.5">
-                <p class="text-[#181D27]  text-sm font-semibold">Verify this device</p>
-                <p class="font-thin text-[#535862] text-xs">
-                    Open the app and scan the QR code below to verify this device.
-                </p>
-
-                <img src="/images/qa-img.png" class="w-full h-24 my-5"/>
-
-                <div class="font-semibold text-sm flex justify-center items-center border border-slate-200 py-1 rounded-md">
-                    Verify another way
-                </div>
-            </div>
-        </div>
-
-        <div class="absolute bottom-0 left-0 right-0 z-20 py-5 px-2 bg-white over">
-            <div class="flex justify-start px-2 py-1 items-center gap-2.5 border rounded-md border-[#E9EAEB]">
+            <div class="flex justify-start px-2 py-1 items-center gap-2.5 border rounded-md bg-white border-[#E9EAEB]">
                 <div class="w-8 h-8">
                     <UAvatar src="https://github.com/benjamincanac.png" class="w-full h-full"/>
                 </div>

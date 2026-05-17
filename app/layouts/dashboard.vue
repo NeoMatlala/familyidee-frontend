@@ -1,10 +1,10 @@
 <template>
-  <div class="flex pt-2 justify-start items-start">
+  <div class="flex justify-start items-start">
     <div class="w-1/5 fixed top-0 left-0 2xl:w-1/6 h-screen overflow-y-auto">
       <Aside />
     </div>
 
-    <main class="ml-[20%] 2xl:ml-[16.666%] border-l border-t rounded-tl-3xl border-[#E9EAEB] w-4/5 2xl:w-5/6 min-h-screen p-7">
+    <main class="bg-[#FEFAF6] ml-[20%] 2xl:ml-[16.666%] w-4/5 2xl:w-5/6 min-h-screen p-7">
       <slot />
     </main>
   </div>
