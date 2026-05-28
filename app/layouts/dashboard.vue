@@ -4,7 +4,7 @@
       <Aside />
     </div>
 
-    <main class="bg-[#FEFAF6] ml-[20%] 2xl:ml-[16.666%] w-4/5 2xl:w-5/6 min-h-screen p-7">
+    <main class="bg-[#FBF6EE] ml-[20%] 2xl:ml-[16.666%] w-4/5 2xl:w-5/6 min-h-screen p-7">
       <slot />
     </main>
   </div>
