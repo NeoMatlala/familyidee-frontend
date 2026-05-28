@@ -6,22 +6,12 @@
                 <p class="text-[#535862]/70 font-thin mt-1">Heres what's new across your family tree</p>
             </div>
 
-            <div class="flex justify-end items-center gap-x-2">
-                <UButton  class="bg-transparent p-2 text-sm rounded-3xl px-4 hover:bg-white text-[#1F1A14] flex justify-between items-center gap-x-1.5">
-                    share
-                </UButton>
-
-                <UButton class="bg-[#FBF6EE] text-sm flex justify-between items-center gap-x-1.5 rounded-3xl px-4 border hover:bg-white border-[#C8B98F] text-[#1F1A14]" icon="i-lucide-upload">
-                    Import
-                </UButton>
-
-                <UButton class="bg-[#B8431A] flex justify-between items-center gap-x-1.5 text-sm rounded-3xl text-white px-4" icon="i-lucide-plus">Add</UButton>
-            </div>
+            <top-header-buttons />
         </div>
         
         <!-- dashboard cards -->
         <div class="mt-7.5 w-full  flex gap-5 justify-between flex-nowrap items-center">
-            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left">
+            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">In your tree</p>
 
                 <h1 class="text-[#1F1A14] my-2.5 text-3xl font-bold">12</h1>
@@ -31,7 +21,7 @@
                 </p>
             </div>
 
-            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left">
+            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Memories</p>
 
                 <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">6</h1>
@@ -41,7 +31,7 @@
                 </p>
             </div>
 
-            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left">
+            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Pending Invites</p>
 
                 <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">2</h1>
@@ -51,7 +41,7 @@
                 </p>
             </div>
 
-            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left">
+            <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Tree storage</p>
 
                 <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">62%</h1>
@@ -64,7 +54,18 @@
 
         <div class="w-full flex justify-between items-start gap-x-5 my-5 h-[50vh] max-h-[50vh] 2xlh-[35vh] 2xl:max-h-[35vh]">
             <!-- table -->
-            <div class="w-2/3 bg-[#FFFCF6] border border-[#E2D7BD] p-5 rounded shadow-xs h-full overflow-y-hidden">
+            <div class="w-2/3 bg-[#FFFCF6] border border-[#E2D7BD] rounded shadow-xs h-full overflow-y-hidden">
+                <div class="flex p-4 justify-between items-center">
+                    <div>
+                        <h1 class="font-bold text-[#5A2308] text-lg">The Dlamini-Khumalo tree</h1>
+                        <p class="text-[#6B5D43] text-xs font-thin ">Start 12 Jan 2026 - 9 Members - 3 Generations</p>
+                    </div>
+
+                    <UButton class="bg-[#FBF6EE] text-sm flex justify-between items-center gap-x-1.5 rounded-3xl px-4 border hover:bg-white border-[#C8B98F] text-[#1F1A14]" :icon="ChevronsUpDown">
+                        Open tree
+                    </UButton>
+                </div>
+
                 <Table  />
             </div>
 
@@ -205,10 +206,9 @@
 </template>
 
 <script setup lang="ts">
-// import type { ChartOptions } from 'chart.js';
-// import LineChart from '~/components/Dashboard/LineChart.vue';
+import TopHeaderButtons from '~/components/Dashboard/TopHeaderButtons.vue';
 import Table from '~/components/Dashboard/Table.vue';
-import { Plus, EllipsisVertical, TrendingDown, Dot, X, CircleAlert, CircleAlertIcon } from 'lucide-vue-next';
+import { Plus, ChevronsUpDown, TrendingDown, Dot, X, CircleAlert, CircleAlertIcon } from 'lucide-vue-next';
 import type { TimelineItem } from '@nuxt/ui'
 
 definePageMeta({
