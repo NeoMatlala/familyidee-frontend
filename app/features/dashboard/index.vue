@@ -53,7 +53,6 @@
         </div>
 
         <div class="w-full flex justify-between items-start gap-x-5 my-5 h-[50vh] max-h-[50vh] 2xlh-[35vh] 2xl:max-h-[35vh]">
-            <!-- table -->
             <div class="w-2/3 bg-[#FFFCF6] border border-[#E2D7BD] rounded shadow-xs h-full overflow-y-hidden">
                 <div class="flex p-4 justify-between items-center">
                     <div>

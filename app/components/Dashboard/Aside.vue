@@ -39,7 +39,7 @@
                     <p>Activity</p>
                 </NuxtLink>
 
-                <NuxtLink :active-class="activeClass" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2">
+                <NuxtLink to="/invites" :active-class="activeClass" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2">
                     <Mail :size="18" />
                     <p>Invites</p>
                 </NuxtLink>
