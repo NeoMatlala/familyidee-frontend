@@ -19,7 +19,7 @@
                     <p>Home</p>
                 </NuxtLink>
 
-                <NuxtLink :active-class="activeClass" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2">
+                <NuxtLink to="/tree" :active-class="activeClass" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2">
                     <Network :size="18" />
                     <p>My Tree</p>
                 </NuxtLink>

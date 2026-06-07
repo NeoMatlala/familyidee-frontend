@@ -37,7 +37,7 @@
             <div class="p-4 flex justify-start items-start gap-x-3">
                 <h1 class="font-bold text-lg">Family members</h1>
 
-                <UBadge :ui="{base: 'text-xs rounded-xl bg-[#F5DCC9] text-[#B8431A]'}">Badge</UBadge>
+                <UBadge :ui="{base: 'text-xs rounded-xl bg-[#F5DCC9] text-[#B8431A]'}">{{ tableData.length }} members</UBadge>
             </div>
             <UTable
                 :data="tableData"

@@ -60,12 +60,15 @@
                         <p class="text-[#6B5D43] text-xs font-thin ">Start 12 Jan 2026 - 9 Members - 3 Generations</p>
                     </div>
 
-                    <UButton class="bg-[#FBF6EE] text-sm flex justify-between items-center gap-x-1.5 rounded-3xl px-4 border hover:bg-white border-[#C8B98F] text-[#1F1A14]" :icon="ChevronsUpDown">
+                    <UButton to="/tree" class="bg-[#FBF6EE] text-sm flex justify-between items-center gap-x-1.5 rounded-3xl px-4 border hover:bg-white border-[#C8B98F] text-[#1F1A14]" :icon="ChevronsUpDown">
                         Open tree
                     </UButton>
                 </div>
 
-                <Table  />
+                <!-- <Table  /> -->
+                 <tree-component
+                    :show-dates="true"
+                />
             </div>
 
             <div class="w-1/3 bg-[#FFFCF6] border border-[#E2D7BD]  py-5 rounded shadow-xs h-full overflow-auto">
@@ -209,10 +212,7 @@ import TopHeaderButtons from '~/components/Dashboard/TopHeaderButtons.vue';
 import Table from '~/components/Dashboard/Table.vue';
 import { Plus, ChevronsUpDown, TrendingDown, Dot, X, CircleAlert, CircleAlertIcon } from 'lucide-vue-next';
 import type { TimelineItem } from '@nuxt/ui'
-
-definePageMeta({
-  layout: 'dashboard'
-})
+import TreeComponent from '~/components/TreeComponent.vue';
 
 
 const items = ref<TimelineItem[]>([
