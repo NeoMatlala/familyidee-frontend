@@ -37,7 +37,7 @@
                     <UAvatar src="https://github.com/benjamincanac.png" class="w-24 h-24"/>
 
                     <div>
-                        <h3 class="text-2xl text-[#1F1A14] font-bold">{{person?.name}} {{ person?.surname }}</h3>
+                        <h3 class="text-2xl text-[#D38362] font-bold">{{person?.name}} {{ person?.surname }}</h3>
                         <span class="text-[#6B5D43] font-thin text-sm">b. {{ person?.yearOfBirth }}</span> · <span class="text-[#6B5D43] font-thin text-sm">Johannessburg, ZA</span>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
 import { USeparator } from '#components';
 import type { PersonNodeType } from '~/features/dashboard/tree/api/types';
 import { Bird , MoveRightIcon} from 'lucide-vue-next';
-
+import Ndlovu from '../Totem/Ndlovu.vue';
 
 const open = defineModel<boolean>('open', { 
     default: false

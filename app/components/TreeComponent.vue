@@ -3,10 +3,11 @@
     <VueFlow
       v-model:nodes="nodes"
       v-model:edges="edges"
-      class="bg-[#F5EEDF] shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)] border border-[#E2D7BD] rounded"
+      class="bg-[#F5EEDF] border border-[#E2D7BD]"
       :fit-view-on-init="true"
       :node-types="nodeTypes"
       @node-click="onNodeClick"
+      :nodes-draggable="false"
     />
 
     <person-details-Dialog 

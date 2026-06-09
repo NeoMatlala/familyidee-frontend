@@ -1,19 +1,19 @@
 <template>
-    <div class="h-full flex flex-col items-between relative bg-[#F4EBD5] border-r-2 border-[#E2D7BD]">
-        <div class="thin-scroll flex-1 overflow-y-auto p-5 pb-24 ">
+    <div class="h-full flex flex-col items-between relative bg-[#F4EBD5] border-r border-[#E2D7BD]">
+        <div class="thin-scroll flex-1 overflow-y-auto p-5 pb-24">
             
             <NuxtLink to="/" class="flex flex-row justify-start gap-2 w-full h-[8vh] 2xl:h-[7vh]">
                 <img src="/images/fam-id-logo.png" class="w-3/4 h-full "/>
             </NuxtLink>
 
             <UInput 
-                class="mt-7.5 mb-5 shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] " icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." 
+                class="mt-7.5 mb-5 " icon="i-lucide-search" size="md" variant="outline" placeholder="Search..." 
                 :ui="{
                     base:'bg-[#FBF6EE] text-[#9B8B6A] border-[#E2D7BD] h-10'
                 }"
             />
 
-            <div class="space-y-2 text-[#1F1A14] text-[15px]">
+            <div class="space-y-2 text-[#1F1A14] text-[15px] font-bold">
                 <NuxtLink to="/dashboard" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2"  :active-class="activeClass">
                     <House :size="18" class=""/>
                     <p>Home</p>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="p-5 flex flex-col text-[15px]">
+        <div class="p-5 flex flex-col text-[15px] font-bold">
             <div class="space-y-0 text-[#1F1A14] mb-5">
                 <NuxtLink  :active-class="activeClass" class="flex p-2 rounded-md hover:bg-[#EAE0C6] cursor-pointer w-full justify-start items-center gap-2">
                     <Volleyball :size="18" />
@@ -77,5 +77,5 @@
 import { House, Network, Image,ChartNoAxesColumn, Mail, Users2, Settings, Volleyball } from 'lucide-vue-next';
 
 const activeClass =
-  "bg-[#E7DCBC] text-[#1F1A14] font-bold"
+  "bg-[#E7DCBC] text-[#1F1A14]"
 </script>

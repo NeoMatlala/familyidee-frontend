@@ -2,7 +2,7 @@
     <div class="h-full w-full">
         <div class="flex justify-between items-start">
             <div>
-                <h1 class="font-semibold text-[#1F1A14] text-2xl">Welcome back, Olivia</h1>
+                <h1 class="font-bold text-[#1F1A14] text-2xl leading-[1.15] tracking-[-0.025em]">Welcome back, Olivia</h1>
                 <p class="text-[#535862]/70 font-thin mt-1">Heres what's new across your family tree</p>
             </div>
 
@@ -14,7 +14,7 @@
             <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">In your tree</p>
 
-                <h1 class="text-[#1F1A14] my-2.5 text-3xl font-bold">12</h1>
+                <h1 class="text-[#1F1A14] my-2 text-3xl font-bold">12</h1>
 
                 <p class="text-[#9B8B6A] text-xs flex items-center justify-start gap-2">
                     across 3 generations
@@ -24,7 +24,7 @@
             <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Memories</p>
 
-                <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">6</h1>
+                <h1 class="text-[[#1F1A14] my-2 text-3xl font-bold">6</h1>
 
                 <p class="text-[#9B8B6A]  text-xs flex items-center justify-start gap-2">
                     oldest from 1976
@@ -34,7 +34,7 @@
             <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Pending Invites</p>
 
-                <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">2</h1>
+                <h1 class="text-[[#1F1A14] my-2 text-3xl font-bold">2</h1>
 
                 <p class="text-[#9B8B6A] text-xs flex items-center justify-start gap-2">
                     awaiting reply
@@ -44,7 +44,7 @@
             <div class="border border-[#E2D7BD] rounded h-auto w-1/4 bg-[#FFFCF6] p-4 text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
                 <p class="text-[#6B5D43] text-sm font-semibold">Tree storage</p>
 
-                <h1 class="text-[[#1F1A14] my-2.5 text-3xl font-bold">62%</h1>
+                <h1 class="text-[[#1F1A14] my-2 text-3xl font-bold">62%</h1>
 
                 <p class="text-[#9B8B6A] text-xs flex items-center justify-start gap-2">
                     3.1GB of 5GB 
@@ -53,11 +53,12 @@
         </div>
 
         <div class="w-full flex justify-between items-start gap-x-5 my-5 h-[50vh] max-h-[50vh] 2xlh-[35vh] 2xl:max-h-[35vh]">
+            <!-- Tree card -->
             <div class="w-2/3 bg-[#FFFCF6] border border-[#E2D7BD] rounded shadow-xs h-full overflow-y-hidden">
                 <div class="flex p-4 justify-between items-center">
                     <div>
-                        <h1 class="font-bold text-[#5A2308] text-lg">The Dlamini-Khumalo tree</h1>
-                        <p class="text-[#6B5D43] text-xs font-thin ">Start 12 Jan 2026 - 9 Members - 3 Generations</p>
+                        <h1 class="font-bold text-[#5A2308] text-lg tracking-[-0.01em]">The Dlamini-Khumalo tree</h1>
+                        <p class="text-[#6B5D43] text-xs">Start 12 Jan 2026 - 9 Members - 3 Generations</p>
                     </div>
 
                     <UButton to="/tree" class="bg-[#FBF6EE] text-sm flex justify-between items-center gap-x-1.5 rounded-3xl px-4 border hover:bg-white border-[#C8B98F] text-[#1F1A14]" :icon="ChevronsUpDown">
@@ -65,16 +66,13 @@
                     </UButton>
                 </div>
 
-                <!-- <Table  /> -->
-                 <tree-component
-                    :show-dates="true"
-                />
+                 <tree-component :show-dates="true" />
             </div>
 
             <div class="w-1/3 bg-[#FFFCF6] border border-[#E2D7BD]  py-5 rounded shadow-xs h-full overflow-auto">
                 <div class="px-4">
-                    <h1 class="font-semibold text-[#1F1A14] text-lg">Coming up</h1>
-                    <p class="text-[#6b5d43] text-xs font-thin ">Birthdays & Anniversaries in the next 60 days</p>
+                    <h1 class="font-bold text-[#5A2308] text-lg tracking-[-0.01em]">Coming up</h1>
+                    <p class="text-[#6b5d43] text-xs">Birthdays & Anniversaries in the next 60 days</p>
                 </div>
                 
                 <USeparator class="my-4" color="neutral" />
@@ -127,7 +125,7 @@
         <div class="w-full flex justify-between items-start gap-x-5 h-[49vh] max-h-[49vh] 2xl:h-[35vh] 2xl:max-h-[35vh]">
             <div class="w-2/3 bg-[#FFFCF6] border border-[#E2D7BD] rounded shadow-xs h-full overflow-auto">
                 <div class="flex px-5 py-3 justify-between items-center ">
-                    <h1 class="font-semibold text-[#181D27] text-lg">Activity</h1>
+                    <h1 class="font-bold text-[#5A2308] text-lg tracking-[-0.01em]">Activity</h1>
                     <p class=" text-sm">View all</p>
                 </div>
 
@@ -187,21 +185,22 @@
                 </div>
             </div>
 
-            <div class="w-1/3  bg-[#FFFCF6] p-5 border border-[#E2D7BD] rounded shadow-xs">
-                    <p class="font-semibold text-xs text-[#B8431A] mb-2">SUGGESTED NEXT</p>
-                    <h1 class="font-bold text-[#1F1A14] text-lg">Add your great-grandparents on your mother’s side.</h1>
-                    <p class="text-[#6B5D43] text-sm font-thin mt-3">Vusi’s parents are missing. Zanele mentioned them on her profile last week — you can pull names from her note.</p>
+            <div class="w-1/3  h-full bg-[#FFFCF6] p-5 border border-[#E2D7BD] rounded shadow-xs">
+                <p class="font-semibold tracking-[0.16em] font-mono text-xs text-[#B8431A] mb-2">SUGGESTED NEXT</p>
+                <h1 class="font-bold text-[#5A2308] leading-6 text-xl tracking-[-0.01em]">Add your great-grandparents on your mother’s side.</h1>
+                <p class="text-[#6B5D43] text-sm mt-3">
+                    Vusi’s parents are missing. Zanele mentioned them on her profile last week — you can pull names from her note.
+                </p>
 
-                    <div class="flex justify-start items-center gap-x-2.5 my-10">
-                        <UButton :icon="Plus" class="bg-[#B8431A] text-sm flex justify-center p-2 px-4 rounded-3xl hover:bg-[#cf4209] text-white">
-                            Add Person
-                        </UButton>
+                <div class="flex justify-start items-center gap-x-2.5 mt-7">
+                    <UButton :icon="Plus" class="bg-[#B8431A] text-sm flex justify-center p-2 px-4 rounded-3xl hover:bg-[#cf4209] text-white">
+                        Add Person
+                    </UButton>
 
-                        <UButton  class="bg-white flex justify-center p-2 text-sm rounded-md hover:bg-white text-[#414651]">
-                           Maybe Later
-                        </UButton>
-                    </div>
-                
+                    <UButton  class="bg-white flex justify-center p-2 text-sm rounded-md hover:bg-white text-[#414651] font-semibold">
+                        Maybe Later
+                    </UButton>
+                </div>
             </div>
         </div>
     </div>

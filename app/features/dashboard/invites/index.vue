@@ -2,8 +2,8 @@
     <div class="h-full w-full">
         <div class="flex justify-between items-start">
             <div>
-                <h1 class="font-semibold text-[#1F1A14] text-2xl">Family Invites</h1>
-                <p class="text-[#535862]/70 font-thin mt-1">
+                <h1 class="font-bold text-[#1F1A14] text-2xl leading-[1.15] tracking-[-0.025em]">Family Invites</h1>
+                <p class="text-[#535862] font-thin mt-1">
                     Invite your relatives to fill in their own branches and add memories
                 </p>
             </div>
@@ -35,9 +35,9 @@
 
         <div class="mt-10 border border-[#E2D7BD] rounded bg-[#FFFCF6] text-left shadow-[0_1px_0_rgba(120,90,40,0.06),0_2px_6px_rgba(120,90,40,0.08)]">
             <div class="p-4 flex justify-start items-start gap-x-3">
-                <h1 class="font-bold text-lg">Family members</h1>
+                <h1 class="font-bold text-[#5A2308] text-lg tracking-[-0.01em]">Family members</h1>
 
-                <UBadge :ui="{base: 'text-xs rounded-xl bg-[#F5DCC9] text-[#B8431A]'}">{{ tableData.length }} members</UBadge>
+                <UBadge :ui="{base: 'text-[10px] rounded-xl bg-[#F5DCC9] text-[#B8431A]'}">{{ tableData.length }} members</UBadge>
             </div>
             <UTable
                 :data="tableData"
