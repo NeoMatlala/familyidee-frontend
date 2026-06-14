@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Hippo">
+<defs>
+<clipPath id="clip-mvubu">
+<circle cx="28" cy="28" r="28">
+</circle>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-mvubu)">
+<rect width="56" height="56" fill="#A4B0C7">
+</rect>
+<g style="color: rgb(31, 45, 74);">
+<g fill="currentColor">
+<ellipse cx="16" cy="14" rx="3" ry="2.5">
+</ellipse>
+<ellipse cx="40" cy="14" rx="3" ry="2.5">
+</ellipse>
+<circle cx="19" cy="20" r="3.5">
+</circle>
+<circle cx="37" cy="20" r="3.5">
+</circle>
+<path d="M10 30 C 10 22, 18 18, 28 18 C 38 18, 46 22, 46 30 C 46 40, 38 46, 28 46 C 18 46, 10 40, 10 30 Z">
+</path>
+<circle cx="19" cy="20" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<circle cx="37" cy="20" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<ellipse cx="24" cy="38" rx="2" ry="2.5" fill="rgba(255,255,255,.35)">
+</ellipse>
+<ellipse cx="32" cy="38" rx="2" ry="2.5" fill="rgba(255,255,255,.35)">
+</ellipse>
+<path d="M22 42 Q 28 45, 34 42" stroke="rgba(255,255,255,.5)" stroke-width="1" fill="none">
+</path>
+</g>
+</g>
+</g>
+</svg>

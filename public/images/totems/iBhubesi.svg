@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Lion">
+<defs>
+<clipPath id="clip-bhubesi">
+<circle cx="28" cy="28" r="28">
+</circle>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-bhubesi)">
+<rect width="56" height="56" fill="#E0A653">
+</rect>
+<g style="color: rgb(79, 45, 12);">
+<g fill="currentColor">
+<path d="M28 4 L 31 11 L 38 8 L 38 15 L 46 15 L 42 21 L 50 24 L 43 27 L 50 32 L 42 35 L 46 41 L 38 41 L 38 48 L 31 45 L 28 52 L 25 45 L 18 48 L 18 41 L 10 41 L 14 35 L 6 32 L 13 27 L 6 24 L 14 21 L 10 15 L 18 15 L 18 8 L 25 11 Z" opacity=".55">
+</path>
+<circle cx="28" cy="28" r="11">
+</circle>
+<circle cx="20" cy="20" r="2.5" fill="rgba(255,255,255,.25)">
+</circle>
+<circle cx="36" cy="20" r="2.5" fill="rgba(255,255,255,.25)">
+</circle>
+<circle cx="24" cy="27" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<circle cx="32" cy="27" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<path d="M27 31 L 29 31 L 28 33 Z" fill="rgba(255,255,255,.95)">
+</path>
+</g>
+</g>
+</g>
+</svg>

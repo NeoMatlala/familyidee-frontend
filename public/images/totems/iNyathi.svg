@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Buffalo">
+<defs>
+<clipPath id="clip-nyathi">
+<circle cx="28" cy="28" r="28">
+</circle>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-nyathi)">
+<rect width="56" height="56" fill="#D9A57A">
+</rect>
+<g style="color: rgb(77, 36, 16);">
+<g fill="currentColor">
+<path d="M28 12 C 18 12, 8 14, 6 20 C 8 22, 14 22, 18 20 C 16 24, 18 28, 22 28 C 22 22, 26 18, 28 18 Z">
+</path>
+<path d="M28 12 C 38 12, 48 14, 50 20 C 48 22, 42 22, 38 20 C 40 24, 38 28, 34 28 C 34 22, 30 18, 28 18 Z">
+</path>
+<path d="M18 22 C 18 32, 22 42, 28 44 C 34 42, 38 32, 38 22 Z">
+</path>
+<ellipse cx="28" cy="18" rx="6" ry="3" opacity=".5">
+</ellipse>
+<circle cx="24" cy="28" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<circle cx="32" cy="28" r="1.4" fill="rgba(255,255,255,.95)">
+</circle>
+<ellipse cx="28" cy="38" rx="3" ry="2.5" fill="rgba(255,255,255,.3)">
+</ellipse>
+</g>
+</g>
+</g>
+</svg>

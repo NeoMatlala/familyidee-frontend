@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Antelope">
+<defs>
+<clipPath id="clip-mpala">
+<circle cx="28" cy="28" r="28">
+</circle>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-mpala)">
+<rect width="56" height="56" fill="#D8B485">
+</rect>
+<g style="color: rgb(79, 45, 12);">
+<g fill="currentColor">
+<path d="M30 14 Q 36 6, 40 4 L 41 6 Q 37 10, 32 16 Z">
+</path>
+<path d="M26 14 Q 20 6, 16 4 L 15 6 Q 19 10, 24 16 Z">
+</path>
+<line x1="34" y1="9" x2="38" y2="7" stroke="rgba(255,255,255,.5)" stroke-width="1">
+</line>
+<line x1="22" y1="9" x2="18" y2="7" stroke="rgba(255,255,255,.5)" stroke-width="1">
+</line>
+<line x1="32" y1="13" x2="36" y2="11" stroke="rgba(255,255,255,.5)" stroke-width="1">
+</line>
+<line x1="24" y1="13" x2="20" y2="11" stroke="rgba(255,255,255,.5)" stroke-width="1">
+</line>
+<path d="M28 14 L 36 22 L 34 36 L 28 44 L 22 36 L 20 22 Z">
+</path>
+<ellipse cx="20" cy="20" rx="2" ry="3.5" transform="rotate(-30 20 20)">
+</ellipse>
+<ellipse cx="36" cy="20" rx="2" ry="3.5" transform="rotate(30 36 20)">
+</ellipse>
+<circle cx="24" cy="26" r="1.2" fill="rgba(255,255,255,.95)">
+</circle>
+<circle cx="32" cy="26" r="1.2" fill="rgba(255,255,255,.95)">
+</circle>
+<path d="M27 36 L 29 36" stroke="rgba(255,255,255,.6)" stroke-width="1">
+</path>
+</g>
+</g>
+</g>
+</svg>

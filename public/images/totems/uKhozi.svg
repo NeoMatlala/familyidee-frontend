@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="Eagle">
+<defs>
+<clipPath id="clip-khozi">
+<circle cx="28" cy="28" r="28">
+</circle>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-khozi)">
+<rect width="56" height="56" fill="#D38362">
+</rect>
+<g style="color: rgb(63, 19, 6);">
+<g fill="currentColor">
+<path d="M28 16 C 18 14, 8 18, 4 26 C 12 22, 18 22, 22 24 C 18 26, 14 30, 12 34 C 18 30, 22 28, 26 28 L 26 22 Z">
+</path>
+<path d="M28 16 C 38 14, 48 18, 52 26 C 44 22, 38 22, 34 24 C 38 26, 42 30, 44 34 C 38 30, 34 28, 30 28 L 30 22 Z">
+</path>
+<ellipse cx="28" cy="30" rx="5" ry="9">
+</ellipse>
+<path d="M24 38 L 32 38 L 30 46 L 28 44 L 26 46 Z">
+</path>
+<circle cx="28" cy="14" r="5">
+</circle>
+<path d="M28 16 L 30 19 L 28 19 Z" fill="rgba(255,255,255,.7)">
+</path>
+<circle cx="29" cy="13" r="1.1" fill="rgba(255,255,255,.9)">
+</circle>
+</g>
+</g>
+</g>
+</svg>
